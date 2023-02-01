@@ -1,416 +1,599 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Latest compiled and minified CSS -->
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Latest compiled and minified CSS -->
+    <title>Devloops Software Nepal</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>Devloops Software Nepal</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Latest compiled JavaScript -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-</head>
-
-<body>
-  <header id="header" class="py-2">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <div class="Logo">
-          <img src="assets/images/logo.png" />
-        </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto me-lg-5">
-            <li class="nav-item">
-              <a class="nav-link btn text-dark px-4 fw-semibold border-0" aria-current="page" href="#slider">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark ms-3 btn px-4 fw-semibold border-0" href="#services">Service</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark ms-3 btn px-4 fw-semibold border-0" href="#testimonial">Testimonial</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark ms-3 btn px-4 fw-semibold border-0" href="#contact">Contact</a>
-            </li>
-
-            <li class="nav-item">
-              <button type="button" class="btn text-dark btn-outline-info ms-3 px-4">
-                Get Started
-              </button>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <main>
-
-    <!--Slider Starts Here-->
-
-    <div id="slider" class="d-flex align-items-center carousel carousel-dark slide mb-3" data-bs-ride="carousel">
-
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active" aria-current="true"
-          aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <!-- Banner 1 -->
-
-        <div class="carousel-item active" data-bs-interval="20000">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
-                data-aos="fade-up" data-aos-delay="200">
-                <h2>Grow Your <span class="text-info">Business</span></h2>
-                <h2>With Our Agency</h2>
-                <br />
-                <div class="d-flex justify-content-center justify-content-lg-start">
-                  <button type="button" class="btn text-dark btn-outline-info ms-3 px-4">
-                    Start Now
-                  </button>
-                </div>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-                <img src="assets/images/Image.png" class="img-fluid animated" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Banner 2 -->
-
-        <div class="carousel-item" data-bs-interval="20000">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
-                data-aos="fade-up" data-aos-delay="200">
-                <h2>Choose What Matters</h2>
-                <h2>To Yours Business & Your</h2>
-                <h2><span class="text-info">Customer</span></h2>
-                <br />
-                <div class="d-flex justify-content-center justify-content-lg-start">
-                  <button type="button" class="btn text-dark btn-outline-info ms-3 px-4">
-                    Lets Talk
-                  </button>
-                </div>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-                <img src="assets/images/Frame 19.png" class="img-fluid animated" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Banner 3 -->
-
-        <div class="carousel-item" data-bs-interval="20000">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
-                data-aos="fade-up" data-aos-delay="200">
-                <h2>Better Solutions For Your Business</h2>
-                <h2>
-                  We are team of talented
-                  <span class="text-info"> Designers</span>
-                </h2>
-                <br />
-                <div class="d-flex justify-content-center justify-content-lg-start">
-                  <button type="button" class="btn text-dark btn-outline-info ms-3 px-4">
-                    Get Started
-                  </button>
-                </div>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-                <img src="assets/images/Frame 17.png" class="img-fluid animated" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
-    </div>
-
-    <!-- Slider ends here  -->
-
-    <!-- Services Starts Here -->
-
-    <section id="services">
-      <div class="container">
-        <div class="text-center">
-          <div class="service-heading text-warning">
-            <p>__Our Service__</p>
-          </div>
-          <div class="service-subheading">
-            <h2>What We <span class="text-info">Do</span></h2>
-          </div>
-        </div>
-        <div class="displayinrow">
-          <div class="flex-item">
-            <img src="assets/images/ux-interface.png" />
-            <h6>Ux Design</h6>
-            <p>Lorem ipsum dolor sit amet consecte</p>
-          </div>
-
-          <div class="flex-item">
-            <img src="assets/images/promotion.png" />
-            <h6>Digital Marketing</h6>
-            <p>Lorem ipsum dolor sit amet consecte</p>
-          </div>
-
-          <div class="flex-item">
-            <img src="assets/images/computer.png" />
-            <h6>Graphics Design</h6>
-            <p>Lorem ipsum dolor sit amet consecte</p>
-          </div>
-
-          <div class="flex-item">
-            <img src="assets/images/graphic-design.png" />
-            <h6>Web Design</h6>
-            <p>Lorem ipsum dolor sit amet consecte</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Services Ends Here  -->
-
-    <!-- Product Starts Here-->
-    <section id="products">
-      <div class="product-container">
-        <div class="text-center">
-          <div class="service-heading text-warning">
-            <p>__Our Products__</p>
-          </div>
-          <div class="service-subheading">
-            <h2>Our Recent <span class="text-info">Products</span></h2>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-sm-6">
-            <img src="assets/images/project7.png" />
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <img src="assets/images/project2.png" />
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <img src="assets/images/project3.png" />
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <img src="assets/images/project4.png" />
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <img src="assets/images/project5.png" />
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <img src="assets/images/project6.png" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Product Ends Here -->
-
-    <!-- Testimonial Starts Here -->
-
-    <section id="testimonial">
-      <div class="container">
-        <div class="text-center">
-          <div class="review-heading text-warning">
-            <p>__Testimonial__</p>
-          </div>
-          <div class="review-subheading">
-            <h2>What Are Client Says</h2>
-          </div>
-        </div>
-        <div class="displayinrow my-3 justify-content-center align-items-center g-3">
-          <div class="col-md-3 col-lg-3 d-block d-lg-block m-3">
-            <div class="card text-center py-2 px-2 rounded-4">
-              <div class="card-text px-3 py-3">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Dicta nulla, eum culpa debitis magni soluta ipsam iure
-              </div>
-              <div class="card-img">
-                <img src="assets/images/person 3.png" alt="" srcset="" />
-              </div>
-              <div class="card-title mt-3 fw-semibold">David Miller</div>
-              <div class="card-subtitle text-muted">Banker</div>
-            </div>
-          </div>
-          <div class="col-md-3 col-lg-3 d-block d-lg-block m-3">
-            <div class="card text-center py-2 px-2 rounded-4">
-              <div class="card-text px-3 py-3">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Dicta nulla, eum culpa debitis magni soluta ipsam iure
-              </div>
-              <div class="card-img">
-                <img src="assets/images/person 3.png" alt="" srcset="" />
-              </div>
-              <div class="card-title mt-3 fw-semibold">David Miller</div>
-              <div class="card-subtitle text-muted">Banker</div>
-            </div>
-          </div>
-          <div class="col-md-3 col-lg-3 d-block d-lg-block m-3">
-            <div class="card text-center py-2 px-2 rounded-4">
-              <div class="card-text px-3 py-3">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Dictaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-              </div>
-              <div class="card-img">
-                <img src="assets/images/person 3.png" alt="" srcset="" />
-              </div>
-              <div class="card-title mt-3 fw-semibold">David Miller</div>
-              <div class="card-subtitle text-muted">Banker</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Testimonial Ends Here -->
-
-    <!-- Contact Starts Here -->
-    <section id="contact">
-      <div class="contact-area">
+  <body>
+    <header id="header" class="py-2">
+      <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <div class="text-center">
-                <div class="review-heading text-warning">
-                  <p>__Contact__</p>
-                </div>
-                <div class="review-subheading">
-                  <h2>Contact Us</h2>
-                </div>
-              </div>
-            </div>
+          <div class="Logo">
+            <img src="assets/images/logo.png" />
           </div>
-          <div class="row">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto me-lg-5">
+              <li class="nav-item">
+                <a
+                  class="nav-link btn text-dark px-4 fw-semibold border-0"
+                  aria-current="page"
+                  href="#slider"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-dark ms-3 btn px-4 fw-semibold border-0"
+                  href="#services"
+                  >Service</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-dark ms-3 btn px-4 fw-semibold border-0"
+                  href="#testimonial"
+                  >Testimonial</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-dark ms-3 btn px-4 fw-semibold border-0"
+                  href="#contact"
+                  >Contact</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <button
+                  type="button"
+                  class="btn text-dark btn-outline-info ms-3 px-4"
+                >
+                  Get Started
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!--Slider Starts Here-->
+
+      <div
+        id="slider"
+        class="d-flex align-items-center carousel carousel-dark slide mb-3"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#slider"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#slider"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#slider"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <!-- Banner 1 -->
+
+          <div class="carousel-item active" data-bs-interval="20000">
             <div class="container">
               <div class="row">
-                <div class="col-md-6 col-sm-12 col-xs-12 pt-5">
-                  <div class="contact-form">
-                    <form>
-                      <div class="form-group">
-                        <input class="form-control mb-2" placeholder="Your Name Here" type="text" />
-                      </div>
-                      <div class="form-group mb-2">
-                        <input class="form-control" placeholder="Your Email Here" type="email" />
-                      </div>
-                      <div class="form-group">
-                        <textarea class="form-control mb-2" cols="30" placeholder="Your Message" rows="5"></textarea>
-                      </div>
-                      <button type="button" class="btn btn-outline-info btn-md">
-                        Submit
-                      </button>
-                    </form>
+                <div
+                  class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <h2>Grow Your <span class="text-info">Business</span></h2>
+                  <h2>With Our Agency</h2>
+                  <br />
+                  <div
+                    class="d-flex justify-content-center justify-content-lg-start"
+                  >
+                    <button
+                      type="button"
+                      class="btn text-dark btn-outline-info ms-3 px-4"
+                    >
+                      Start Now
+                    </button>
                   </div>
                 </div>
-                <div class="col-lg-6">
-                  <div class="contact-logo">
-                    <img src="assets/images/contact.jpg" />
+                <div
+                  class="col-lg-6 order-1 order-lg-2 hero-img"
+                  data-aos="zoom-in"
+                  data-aos-delay="200"
+                >
+                  <img
+                    src="assets/images/Image.png"
+                    class="img-fluid animated"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Banner 2 -->
+
+          <div class="carousel-item" data-bs-interval="20000">
+            <div class="container">
+              <div class="row">
+                <div
+                  class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <h2>Choose What Matters</h2>
+                  <h2>To Yours Business & Your</h2>
+                  <h2><span class="text-info">Customer</span></h2>
+                  <br />
+                  <div
+                    class="d-flex justify-content-center justify-content-lg-start"
+                  >
+                    <button
+                      type="button"
+                      class="btn text-dark btn-outline-info ms-3 px-4"
+                    >
+                      Lets Talk
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="col-lg-6 order-1 order-lg-2 hero-img"
+                  data-aos="zoom-in"
+                  data-aos-delay="200"
+                >
+                  <img
+                    src="assets/images/Frame 19.png"
+                    class="img-fluid animated"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Banner 3 -->
+
+          <div class="carousel-item" data-bs-interval="20000">
+            <div class="container">
+              <div class="row">
+                <div
+                  class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <h2>Better Solutions For Your Business</h2>
+                  <h2>
+                    We are team of talented
+                    <span class="text-info"> Designers</span>
+                  </h2>
+                  <br />
+                  <div
+                    class="d-flex justify-content-center justify-content-lg-start"
+                  >
+                    <button
+                      type="button"
+                      class="btn text-dark btn-outline-info ms-3 px-4"
+                    >
+                      Get Started
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="col-lg-6 order-1 order-lg-2 hero-img"
+                  data-aos="zoom-in"
+                  data-aos-delay="200"
+                >
+                  <img
+                    src="assets/images/Frame 17.png"
+                    class="img-fluid animated"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#slider"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#slider"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Slider ends here  -->
+
+      <!-- Services Starts Here -->
+
+      <section id="services">
+        <div class="container mt-5 mb-5">
+          <div class="text-center">
+            <div class="service-heading text-info">
+              <p>__Our Service__</p>
+            </div>
+            <div class="service-subheading">
+              <h2>What We <span class="text-info">Do</span></h2>
+            </div>
+          </div>
+          <div
+            class="displayinrow my-3 justify-content-center align-items-center g-3"
+          >
+            <div class="col-md-3 col-lg-3 d-block d-lg-block m-3">
+              <div class="card text-center py-2 px-2 rounded-4 pt-4">
+                <div class="card-img">
+                  <img src="assets/images/ux-design.png" alt="" srcset="" />
+                </div>
+                <h6>Ux Design</h6>
+                <p>Mobile App, Website</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptas non perferendis vitae atque, architecto inventore.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-3 d-block d-lg-block m-3">
+              <div class="card text-center py-2 px-2 rounded-4 pt-4">
+                <div class="card-img">
+                  <img
+                    src="assets/images/graphic-design.png"
+                    alt=""
+                    srcset=""
+                  />
+                </div>
+                <h6>Graphic Design</h6>
+                <p>Mobile App, Website</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptas non perferendis vitae atque, architecto inventore.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-3 d-block d-lg-block m-3">
+              <div class="card text-center py-2 px-2 rounded-4 pt-4">
+                <div class="card-img">
+                  <img src="assets/images/web-design.png" alt="" srcset="" />
+                </div>
+                <h6>Web Design</h6>
+                <p>Mobile App, Website</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptas non perferendis vitae atque, architecto inventore.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-3 d-block d-lg-block m-3">
+              <div class="card text-center py-2 px-2 rounded-4 pt-4">
+                <div class="card-img">
+                  <img
+                    src="assets/images/mobile-development.png"
+                    alt=""
+                    srcset=""
+                  />
+                </div>
+                <h6>App Development</h6>
+                <p>Mobile App, Website</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptas non perferendis vitae atque, architecto inventore.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-3 d-block d-lg-block m-3">
+              <div class="card text-center py-2 px-2 rounded-4 pt-4">
+                <div class="card-img">
+                  <img src="assets/images/promotion.png" alt="" srcset="" />
+                </div>
+                <h6>Digital Marketing</h6>
+                <p>Mobile App, Website</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptas non perferendis vitae atque, architecto inventore.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Ends Here -->
+
+      <!-- Product Starts Here-->
+      <section id="products">
+        <div class="container pt-5">
+          <div class="text-center">
+            <div class="service-heading text-info">
+              <p>__Our Products__</p>
+            </div>
+            <div class="service-subheading">
+              <h2>Our Recent <span class="text-info">Products</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="container pt-3 pb-5">
+          <div class="row img-fluid">
+            <div class="col-lg-4 col-sm-6">
+              <img src="assets/images/project7.png" />
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <img src="assets/images/project2.png" />
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <img src="assets/images/project3.png" />
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <img src="assets/images/project4.png" />
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <img src="assets/images/project5.png" />
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <img src="assets/images/project6.png" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Product Ends Here -->
+
+      <!-- Testimonial Starts Here -->
+
+      <section id="testimonial">
+        <div class="container pt-4 pb-4">
+          <div class="text-center">
+            <div class="review-heading text-info">
+              <p>__Testimonial__</p>
+            </div>
+            <div class="review-subheading">
+              <h2>What Are Client Says</h2>
+            </div>
+          </div>
+          <div
+            class="displayinrow my-3 justify-content-center align-items-center g-3"
+          >
+            <div class="col-md-3 col-lg-3 d-block d-lg-block m-3">
+              <div class="card text-center py-2 px-2 rounded-4">
+                <div class="card-text px-3 py-3">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dicta nulla, eum culpa debitis magni soluta ipsam iure
+                </div>
+                <div class="card-img">
+                  <img src="assets/images/person 3.png" alt="" srcset="" />
+                </div>
+                <div class="card-title mt-3 fw-semibold">David Miller</div>
+                <div class="card-subtitle text-muted">Banker</div>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-3 d-block d-lg-block m-3">
+              <div class="card text-center py-2 px-2 rounded-4">
+                <div class="card-text px-3 py-3">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dicta nulla, eum culpa debitis magni soluta ipsam iure
+                </div>
+                <div class="card-img">
+                  <img src="assets/images/person 3.png" alt="" srcset="" />
+                </div>
+                <div class="card-title mt-3 fw-semibold">David Miller</div>
+                <div class="card-subtitle text-muted">Banker</div>
+              </div>
+            </div>
+            <div class="col-md-3 col-lg-3 d-block d-lg-block m-3">
+              <div class="card text-center py-2 px-2 rounded-4">
+                <div class="card-text px-3 py-3">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dicta nulla, eum culpa debitis magni soluta ipsam iure
+                </div>
+                <div class="card-img">
+                  <img src="assets/images/person 3.png" alt="" srcset="" />
+                </div>
+                <div class="card-title mt-3 fw-semibold">David Miller</div>
+                <div class="card-subtitle text-muted">Banker</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonial Ends Here -->
+
+      <!-- Contact Starts Here -->
+      <section id="contact">
+        <div class="contact-area pt-4">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="text-center">
+                  <div class="review-heading text-info">
+                    <p>__Contact__</p>
+                  </div>
+                  <div class="review-subheading">
+                    <h2>Contact Us</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 col-sm-12 col-xs-12 pt-5">
+                    <div class="contact-form">
+                      <form>
+                        <div class="form-group">
+                          <input
+                            class="form-control mb-2"
+                            placeholder="Your Name Here"
+                            type="text"
+                          />
+                        </div>
+                        <div class="form-group mb-2">
+                          <input
+                            class="form-control"
+                            placeholder="Your Email Here"
+                            type="email"
+                          />
+                        </div>
+                        <div class="form-group">
+                          <textarea
+                            class="form-control mb-2"
+                            cols="30"
+                            placeholder="Your Message"
+                            rows="5"
+                          ></textarea>
+                        </div>
+                        <button
+                          type="button"
+                          class="btn btn-outline-info btn-md"
+                        >
+                          Submit
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="contact-logo">
+                      <img
+                        src="assets/images/contactus.png"
+                        class="img-fluid"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-light mt-4 pt-4">
+      <!-- Footer Links -->
+      <div class="container-fluid text-center text-md-left">
+        <!-- Grid row -->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-lg-3 col-sm-3 mt-md-0 mt-3">
+            <!-- Content -->
+            <h5 class="text-uppercase">
+              Dev<span class="text-info">Loops </span>
+              <span>Software</span>
+            </h5>
+            <p>Jhamsikhel,Nepal</p>
+            <p>01-2948827</p>
+          </div>
+
+          <!-- Grid column -->
+          <div class="col-lg-3 col-sm-3 align-items-center">
+            <!-- Links -->
+            <h5 class="text-uppercase">Useful Links</h5>
+
+            <a href="" class="">Home</a><br />
+            <a href="" class="">About Us</a><br />
+            <a href="" class="">Services</a><br />
+            <a href="" class="">Terms of service</a><br />
+            <a href="" class="">Privacy policy</a>
+          </div>
+
+          <!-- Grid column -->
+          <div class="col-lg-3 col-sm-3 align-items-center">
+            <!-- Links -->
+            <h5 class="text-uppercase">Services</h5>
+            <br />
+            <p>Graphic Design</p>
+            <p>UI/UX Design</p>
+            <p>Web Development</p>
+            <p>App Development</p>
+          </div>
+
+          <!-- Grid column -->
+          <div class="col-lg-3 col-sm-3 align-items-center">
+            <!-- Links -->
+            <h5 class="text-uppercase">Social</h5>
+            <a href="www.facebook.com" class="fa fa-facebook"></a>
+            <a href="www.twitter.com" class="fa fa-twitter"></a>
+            <a href="www.google.com" class="fa fa-google"></a>
+            <a href="www.linkdin.com" class="fa fa-linkedin"></a>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
       </div>
-    </section>
-  </main>
+      <!-- Footer Links -->
 
-  <!-- Footer -->
-  <footer class="page-footer font-small bg-light mt-4 pt-4">
-    <!-- Footer Links -->
-    <div class="container-fluid text-center text-md-left">
-      <!-- Grid row -->
-      <div class="row">
-        <!-- Grid column -->
-        <div class="col-lg-3 col-sm-3 mt-md-0 mt-3">
-          <!-- Content -->
-          <h5 class="text-uppercase">
-            Dev<span class="text-info">Loops </span>
-            <span>Software</span>
-          </h5>
-          <p>Jhamsikhel,Nepal</p>
-          <p>01-2948827</p>
-        </div>
-
-        <!-- Grid column -->
-        <div class="col-lg-3 col-sm-3 align-items-center">
-          <!-- Links -->
-          <h5 class="text-uppercase">Useful Links</h5>
-
-          <a href="" class="">Home</a><br />
-          <a href="" class="">About Us</a><br />
-          <a href="" class="">Services</a><br />
-          <a href="" class="">Terms of service</a><br />
-          <a href="" class="">Privacy policy</a>
-        </div>
-
-        <!-- Grid column -->
-        <div class="col-lg-3 col-sm-3 align-items-center">
-          <!-- Links -->
-          <h5 class="text-uppercase">Services</h5>
-          <br />
-          <p>Graphic Design</p>
-          <p>UI/UX Design</p>
-          <p>Web Development</p>
-          <p>App Development</p>
-        </div>
-
-        <!-- Grid column -->
-        <div class="col-lg-3 col-sm-3 align-items-center">
-          <!-- Links -->
-          <h5 class="text-uppercase">Social</h5>
-          <a href="www.facebook.com" class="fa fa-facebook"></a>
-          <a href="www.twitter.com" class="fa fa-twitter"></a>
-          <a href="www.google.com" class="fa fa-google"></a>
-          <a href="www.linkdin.com" class="fa fa-linkedin"></a>
-        </div>
-        <!-- Grid column -->
+      <!-- Copyright -->
+      <div class="footer-copyright text-center text-light bg-dark pt-4 pb-4">
+        © 2020 Copyright: Devloops Software Nepal
       </div>
-      <!-- Grid row -->
-    </div>
-    <!-- Footer Links -->
-
-    <!-- Copyright -->
-    <div class="footer-copyright text-center text-light bg-dark pt-4 pb-4">
-      © 2020 Copyright: Devloops Software Nepal
-    </div>
-    <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
-</body>
-
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </body>
 </html>
