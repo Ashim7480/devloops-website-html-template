@@ -1,5 +1,5 @@
 * {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif;
 }
 
 #products {
@@ -7,6 +7,10 @@
 }
 
 #header {
+  background-color: #e5f5fc;
+}
+
+#contact {
   background-color: #e5f5fc;
 }
 
@@ -23,8 +27,36 @@
 }
 
 .devloops-slider p {
-  font-weight: 200;
+  font-weight: 20;
   font-style: normal;
+}
+
+#services h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #373737;
+}
+
+#services p {
+  font-size: 0.8rem;
+}
+
+#products h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #373737;
+}
+
+#testimonial h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #373737;
+}
+
+#contact h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #373737;
 }
 
 .displayinrow {
@@ -34,13 +66,17 @@
   justify-content: space-evenly;
 }
 
-.card {
+#services .card {
   transition: all 0.3s;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.card:hover {
+#services .card:hover {
   transform: scale(1.15);
   background-color: #89cff0;
+}
+
+#testimonial .card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .flex-item {
