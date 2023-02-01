@@ -1,0 +1,23 @@
+@media (max-width: 991px) {
+  #slider {
+    height: 80vh;
+    text-align: center;
+  }
+
+  .devloops-slider h1 {
+    font-size: 1.5em;
+  }
+
+  #slider .carousel-control-prev,
+  #slider .carousel-control-next {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 575px) {
+
+}
