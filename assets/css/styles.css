@@ -1,10 +1,5 @@
 * {
-  padding: 0px;
-  margin: 0px;
-}
-
-.Logo {
-  text-align: center;
+  font-family: "Poppins", sans-serif !important;
 }
 
 #products {
@@ -13,7 +8,6 @@
 
 #header {
   background-color: #e5f5fc;
-  position: sticky;
 }
 
 #slider {
@@ -22,47 +16,15 @@
   background: #e5f5fc;
 }
 
-#contact {
-  background: #e5f5fc;
-}
-
-h2 {
-  font-family: Poppins;
-}
-
-.slider-header {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  /* font-size: 48.83px; */
-  /* line-height: 73px; */
+.devloops-slider h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
   color: #373737;
-  margin-left: 5%;
 }
 
-.slider-header > p {
-  margin: 20%;
-}
-
-#sliderheader1 {
-  margin-left: 20%;
-  font-family: "Poppins";
-}
-
-#col1 {
-  margin-top: 8%;
-}
-
-.slider-paragraph {
-  margin-left: 5%;
-}
-
-.slider-pa .nav-item {
-  font-family: "Poppins";
+.devloops-slider p {
+  font-weight: 200;
   font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
 }
 
 .displayinrow {
@@ -220,17 +182,4 @@ h5 {
 .fa-linkedin {
   background: #007bb5;
   color: white;
-}
-
-@media (max-width: 991px) {
-  #slider {
-    height: 100vh;
-    text-align: center;
-  }
-}
-
-@media (max-width: 768px) {
-}
-
-@media (max-width: 575px) {
 }
